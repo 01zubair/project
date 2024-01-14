@@ -1,0 +1,259 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+header {
+   
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding-bottom: 1px;
+   
+}
+
+/* Container styles */
+#section1,
+#section2,
+#section3 {
+    width: 540px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #292929;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-list,
+.task-list2,
+.classes-list {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1,
+h2,
+h3 {
+    color: #fff;
+}
+
+/* Image styles */
+.myImage {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Audio player styles */
+.myAudio {
+    display: none;
+}
+
+/* Pomodoro container styles */
+.container1 {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #292929;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Pomodoro text styles */
+.pomo {
+    color: #fff;
+}
+
+.timer-display {
+    font-size: 2em;
+    margin: 10px 0;
+    color: #fff;
+}
+
+/* Button styles */
+.buttons1 button {
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.buttons1 button:hover {
+    background-color: #555;
+}
+
+/* Form styles */
+#new-task-form,
+#book-marks,
+#classes-form {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+form input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #444;
+    color: #fff;
+}
+
+form input[type="text"] {
+    width: calc(100% - 22px);
+}
+
+ew-task-submit2 {
+    margin-left: 100px;
+}
+
+
+
+#book-marks input[type="text"] {
+    flex: 2;
+    /* Adjusted flex value to make the input box wider */
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #333;
+    /* Input background color */
+    color: #333;
+    /* Input text color */
+    margin-top: 100;
+}
+
+#book-marks input[type="submit"] {
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+form input[type="submit"]:hover,
+#add-class:hover {
+    background-color: #555;
+}
+
+/* List styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task,
+.task-list2 li,
+#classes-list li {
+
+    background-color: #555;
+    padding: 0px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+/* Additional styles for generated elements */
+#tasks,
+#tasks2,
+#classes-list {
+    max-height: 240px;
+    overflow-y: auto;
+}
+
+/* Additional styles for #task-list within the form */
+#new-task-form #tasks {
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+/* Additional styles for #classes-list */
+#classes-list {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #292929;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#tasks2 input {
+    position: relative;
+    right: 0.5%;
+    top: 20px;
+    width: 70%;
+    padding: 11px;
+    margin-right: 100px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #444;
+    color: #fff;
+    margin-top: 10p;
+}
+
+#tasks2 button {
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+
+    /* Adjusted position */
+}
+
+#tasks2 .edit,
+#tasks2 .delete {
+    font-size: small;
+    position: relative;
+    top: -18px;
+    margin-left: 1px;
+    right: -38.5%;
+    /* Added position */
+}
+
+#tasks2 .edit:hover,
+#tasks2 .delete:hover {
+    background-color: #1f1f1f;
+}
+
+#classes-list button {
+
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#classes-list button:hover {
+    background-color: #1f1f1f;
+}
